@@ -1,6 +1,12 @@
 {
   "extends": "tslint:recommended",
   "rules": {
+    "one-variable-per-declaration":false,
+    "no-var-keyword": false,
+    "object-literal-shorthand":false,
+    "only-arrow-functions":false,
+    "prefer-const": false,
+    "no-trailing-whitespace": false,
     "align": {
       "options": [
         "parameters",
@@ -77,7 +83,7 @@
       "as-needed"
     ],
     "quotemark": [
-      true,
+      false,
       "single"
     ],
     "semicolon": {
