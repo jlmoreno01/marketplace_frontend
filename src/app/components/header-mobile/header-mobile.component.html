@@ -333,11 +333,12 @@ Header Mobile
                 <div class="ps-block--user-header">
 
                     <div class="ps-block__left">
-                        <i class="icon-user"></i>
+                        <a [routerLink]="['login']" routerLinkActive="active" ><i class="icon-user"></i></a>
+                        
                     </div>
                     <div class="ps-block__right">
-                        <a href="my-account.html">Usuario</a>
-                        <a href="my-account.html">Registro</a>
+                        <a [routerLink]="['login']" routerLinkActive="active" >Ingresar</a>
+                        <a [routerLink]="['register']" routerLinkActive="active">Crea tu Cuenta</a>
                     </div>
 
                 </div>

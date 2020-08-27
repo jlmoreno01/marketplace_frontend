@@ -1,0 +1,104 @@
+<!--=====================================
+Breadcrumb
+======================================-->  
+
+<div class="ps-breadcrumb">
+
+    <div class="container">
+
+        <ul class="breadcrumb">
+
+            <li><a [routerLink]="['/home']" >Inicio</a></li>
+
+            <li>Login</li>
+
+        </ul>
+
+    </div>
+
+</div>
+
+<!--=====================================
+Login - Register Content
+======================================--> 
+
+<div class="ps-my-account">
+
+    <div class="container">
+
+        <form class="ps-form--account ps-tab-root" action="link.html" method="get">
+
+            <ul class="ps-tab-list">
+                <li class="active"><a href="#sign-in">Inicio de Sesión</a></li>
+            </ul>
+
+            <div class="ps-tabs">
+
+                <!--=====================================
+                Login Form
+                ======================================--> 
+
+                <div class="ps-tab active" id="sign-in">
+
+                    <div class="ps-form__content">
+
+                        <!--<h5>Log In Your Account</h5>-->
+
+                        <div class="form-group">
+
+                            <input class="form-control" type="email" placeholder="Correo Electrónico">
+
+                        </div>
+
+                        <div class="form-group form-forgot">
+
+                            <input class="form-control" type="password" placeholder="Contraseña">                            
+                        </div>
+
+                        <div class="form-group form-forgot">
+                            <a href="#">Olvidaste tu Contraseña?</a>
+                        </div>
+                        <br>
+
+                        <div class="form-group">
+
+                            <div class="ps-checkbox">
+
+                                <input class="form-control" type="checkbox" id="remember-me" name="remember-me">
+
+                                <label for="remember-me">Recordarme</label>
+
+                            </div>
+
+                        </div>
+
+                        <div class="form-group submtit">
+
+                            <button class="ps-btn ps-btn--fullwidth">Ingresar</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="ps-form__footer">
+
+                        <p>Conectarse con:</p>
+
+                        <ul class="ps-list--social">
+
+                            <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a class="google" href="#"><i class="fab fa-google"></i></a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div><!-- End Login Form -->
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>

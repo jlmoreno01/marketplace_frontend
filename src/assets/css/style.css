@@ -1977,7 +1977,8 @@ button {
   border: none;
   height: 50px;
   background-color: transparent;
-  border: 1px solid #dddddd;
+  /*border: 1px solid #dddddd;*/
+  border: 1px solid black;
   border-radius: 0;
   box-shadow: 0 0 rgba(0, 0, 0, 0);
   -webkit-transition: all .4s ease;
@@ -6161,6 +6162,10 @@ textarea.form-control {
   opacity: 1;
 }
 
+/*OJOOOOOOOOO SOMBRA DE LAS CARDS DE HOME*/
+.main-menu-pro .option-promotions:hover {
+  box-shadow: 5px 5px 0px 0px #D5D1C7;
+}
 .ps-collection {
   display: block;
 }
@@ -15804,7 +15809,7 @@ textarea.form-control {
   z-index: 1000;
   border-bottom: 1px solid #ccc;
   padding: 10px 0;
-  background-color: #ffffff;
+  background-color: #fcb800;
 }
 
 .header--standard.header--sticky .header__content .menu--product-categories {
